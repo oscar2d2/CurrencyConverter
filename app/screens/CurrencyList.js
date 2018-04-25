@@ -9,7 +9,7 @@ const CurrencyList = () => (
     <FlatList
       data={currencies}
       renderItem={({ item }) => <Text>{item}</Text>}
-      keyExtractor={(item) => item}
+      keyExtractor={item => item}
     />
   </View>
 );
